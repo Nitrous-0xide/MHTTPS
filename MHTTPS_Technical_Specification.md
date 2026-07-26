@@ -281,8 +281,6 @@ MHTTPS can be viewed as “Reality + mandatory realistic request piggybacking + 
 
 ## 12. Conclusion
 
-MHTTPS, in its current hybrid form, replaces the earlier “always return a fake failure” strategy with a Reality-style camouflage layer plus selective unlock via authenticatable material inside a legitimate-looking request. This removes the two most reliable signals the GFW has historically used (probe response + systematic failure patterns) while preserving strong traffic shaping.
-
 The design is more complex than pure VLESS+Reality but gains an extra layer of request-level steganography and mandatory shape control. When implemented carefully it should offer state-of-the-art resistance against both active probing and passive statistical detection.
 
 ---
